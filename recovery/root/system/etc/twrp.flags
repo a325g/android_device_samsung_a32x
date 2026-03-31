@@ -6,10 +6,10 @@ product		/product	ext4							wait,logical,first_stage_mount
 odm		/odm		ext4							wait,logical,first_stage_mount
 
 # Symlinked partitions
-/system_image   emmc    system      flags=backup=0;flashimg;display="System Image";logical
-/vendor_image   emmc    vendor      flags=backup=0;flashimg;display="Vendor Image";logical
-/product_image  emmc    product     flags=backup=0;flashimg;display="Product Image";logical
-/odm_image      emmc    odm         flags=backup=0;flashimg;display="Odm Image";logical
+/system_image   emmc    system      flags=backup=1;flashimg;display="System Image";logical
+/vendor_image   emmc    vendor      flags=backup=1;flashimg;display="Vendor Image";logical
+/product_image  emmc    product     flags=backup=1;flashimg;display="Product Image";logical
+/odm_image      emmc    odm         flags=backup=1;flashimg;display="Odm Image";logical
 
 # Physical partitions
 /metadata	ext4		/dev/block/platform/bootdevice/by-name/metadata		flags=backup=1;display="Metadata"
