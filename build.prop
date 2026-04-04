@@ -1,0 +1,8 @@
+ro.build.product=a32x
+ro.product.board=a32x
+ro.product.brand=samsung
+ro.product.manufacturer=samsung
+ro.product.name=a32xzh
+ro.product.devicd=a32x
+ro.product.model=SM-A326B
+ro.product.cpu.abi=arm64-v8a
