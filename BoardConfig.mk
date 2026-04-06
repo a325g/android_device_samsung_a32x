@@ -51,7 +51,7 @@ TARGET_KERNEL_CONFIG := a32x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a32x
 
 # Kernel - prebuilt
-TARGET_FORCE_PREBUILT_KERNEL := true
+# TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
