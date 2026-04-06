@@ -49,6 +49,11 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := rufnx_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a32x
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    CC= ~/clang/bin/clang
+    CROSS_COMPILE= ~/gcc/bin/aarch64-linux-android-
+    
+
 
 # Kernel - prebuilt
 # TARGET_FORCE_PREBUILT_KERNEL := true
