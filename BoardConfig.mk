@@ -88,6 +88,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_RAMDISK_COMPRESS_WITH := lzma
 COMPRESS_WITH := lzma
+LZMA_RAMDISK := true
+
 
 
 # Security patch level
