@@ -5,6 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+PRODUCT_RAMDISK_COMPRESSION := lzma
 LOCAL_PATH := device/samsung/a32x
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 INFINITY_BUILD_TYPE := UNOFFICIAL
