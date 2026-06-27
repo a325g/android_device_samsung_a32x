@@ -138,4 +138,5 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TARGET_RECOVERY_FSTAB := device/samsung/a32x/recovery/root/system/etc/recovery.fstab
 TW_EXCLUDE_PYTHON := true
 TW_EXCLUDE_LPDUMP := true
+TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery"
 
