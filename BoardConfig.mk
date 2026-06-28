@@ -139,4 +139,6 @@ TARGET_RECOVERY_FSTAB := device/samsung/a32x/recovery/root/system/etc/recovery.f
 TW_EXCLUDE_PYTHON := true
 TW_EXCLUDE_LPDUMP := true
 TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery"
-
+# LZMA compression for recovery's & kernel ramdisk....
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a32x/custombootimg.mk
+BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
